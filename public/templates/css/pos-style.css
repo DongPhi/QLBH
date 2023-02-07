@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;  
+}
+.pos-header{
+    background-color: #4cb8f3;
+    padding: 5px;
+}
+.order-search{
+    width: 60rem;
+    float:left;
+}
+.pos-menubar .btn-menu{
+    background-color: #4cb8f3;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    padding-right: 5px;
+    margin-top: 2px;
+}
+.pos-menubar .dropdown-menu{
+    background-color: #fff;
+}
+.dropdown-menu li{
+    padding: 5px 5px 5px 0;
+}
+.product-results{
+    float: left;
+    width: 75%;
+}
+.main-content{
+    background-color: #e6f5fd;
+    float: right;
+    width: 25%;
+    height: 95.4vh;
+    padding-top: 20px;
+}
+.content-infor{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.infor{
+    border-bottom: 1px solid #40b7f7;
+    padding-bottom: 3px;
+}
+.infor span{
+    background-color: #40b7f7;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: #fff;
+}
+#search-box-cys{
+    border-radius: 3px 0 0 3px !important;
+    margin-top: 20px;
+    float: left;
+    width: 91%;
+    margin-bottom: 10px;
+}
+#cys-suggestion-box{ 
+    display: none; 
+    background-color: #fff; 
+    z-index: 2 !important; 
+    position: absolute; 
+    width: 90.9%; 
+    margin-top: 55px;
+}
+.add-customer{
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+    width: 7%;
+}
+.add-customer .btn-customer{
+    background-color: #40b7f7;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 10px;
+}
+.del-cys{
+    color: rgb(238, 68, 68);
+    position: absolute;
+    right:47px;
+    top:27px;
+}
+.infor-bill{
+    margin-top: 20px
+}
+.pos-bill{
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding-bottom: 10px;
+}
+.text-money, .text-discont, .text-pay, .text-debt{
+    float: left;
+}
+.total-money, .total-after-discount, .debt{
+    float: right;
+    margin-right: 3px;
+}
+.text-discont, .text-pay{
+    margin-top:6px;
+}
+.discount-order, .customer-pay{
+    border-radius: 0 !important;
+    float:right;
+    width: 40%;
+    padding-right: 2px;
+}
+.text-debt, .debt{
+    margin-top: 10px;
+}
+.orders{
+    float: right;
+    margin-top: 20px;
+}
+.customer-retail{
+    float:left;
+}
+.ajax-error {
+    width: 350px;
+    background-color: #32a5e2;
+    position: fixed;
+    top: 10%;
+    right: 38%;
+    z-index: 9999;
+    padding: 15px;
+    color: #fff;
+    display: none;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px;
+}
+
+.ajax-success {
+    position: fixed;
+    top: 10%;
+    right: 38%;
+    z-index: 9999;
+    font-size: 13px;
+    text-align: justify;
+}
+.btn-payment{
+    background-color: #32a5e2;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 2px;
+}
+.table-products{
+    width: 100%;
+    font-size: 15px;
+}
+.table-products tr td{
+    padding-top: 20px;
+}
